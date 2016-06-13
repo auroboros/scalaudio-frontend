@@ -18,6 +18,6 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.index("The Scalaudio front-end framework", "cool userguy"))
+    Ok(views.html.index())
   }
 }

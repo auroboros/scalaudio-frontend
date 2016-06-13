@@ -1,3 +1,3 @@
-var transport = new Thrift.Transport("/thrift/service/tutorial/");
+var transport = new Thrift.Transport("http://localhost:9091/");
 var protocol  = new Thrift.Protocol(transport);
-var client    = new ScalaudioServiceClient(protocol);
+client    = new ScalaudioServiceClient(protocol);
